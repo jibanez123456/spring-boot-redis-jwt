@@ -21,7 +21,7 @@ import org.springframework.security.core.AuthenticationException;
  *
  * @author NGM
  */
-public class AuthenticationProviderImpl implements org.springframework.security.authentication.AuthenticationProvider {
+public class    AuthenticationProviderImpl implements org.springframework.security.authentication.AuthenticationProvider {
 
     private RedisService service;
 
